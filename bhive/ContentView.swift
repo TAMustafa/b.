@@ -21,7 +21,7 @@ struct ContentView: View {
                 HStack {
                     TextField("Search", text: $searchTag, onCommit: passSearchTag)
                         .textFieldStyle(RoundedBorderTextFieldStyle())
-                        .padding()
+                        .foregroundColor(Color(#colorLiteral(red: 0.4756349325, green: 0.4756467342, blue: 0.4756404161, alpha: 1)))
                         .autocapitalization(.none)
 
                     if searchTag.count >= 2 {

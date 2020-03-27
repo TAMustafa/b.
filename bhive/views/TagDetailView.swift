@@ -8,6 +8,7 @@
 
 import SwiftUI
 
+
 struct TagDetailView: View {
     
     var tag: Tag
@@ -15,12 +16,19 @@ struct TagDetailView: View {
     var body: some View {
         ScrollView(.vertical) {
             VStack(spacing: 20) {
+                Text(tag.title)
+                    .padding(5)
+                    .font(.system(size: 18, weight: .bold))
+                    .foregroundColor(Color(#colorLiteral(red: 0.4756349325, green: 0.4756467342, blue: 0.4756404161, alpha: 1)))
+                Text("Posted by \(tag.author)")
+                    .font(.system(size: 12, weight: .medium))
+                    .foregroundColor(Color(#colorLiteral(red: 1, green: 0.3415772839, blue: 0.4060478497, alpha: 1)))
                 Text(tag.body)
                     .padding()
-                    .font(.system(size: 14, weight: .light))
-                    .foregroundColor(Color(#colorLiteral(red: 0.2549019754, green: 0.2745098174, blue: 0.3019607961, alpha: 1)))
+                    .font(.system(size: 16, weight: .light))
+                    .foregroundColor(Color(#colorLiteral(red: 0.4756349325, green: 0.4756467342, blue: 0.4756404161, alpha: 1)))
                 Spacer()
-            } .navigationBarTitle(Text(tag.title), displayMode: .automatic)
+            }
         }
     }
 }

@@ -59,8 +59,8 @@
 		F57F0F022429469D003EDB4F /* views */ = {
 			isa = PBXGroup;
 			children = (
-				F57F0F03242946BD003EDB4F /* TagDetailView.swift */,
 				F57F0F05242946F7003EDB4F /* TagCardView.swift */,
+				F57F0F03242946BD003EDB4F /* TagDetailView.swift */,
 				F5D7A9DC242CFD2100ED5879 /* AboutView.swift */,
 			);
 			path = views;

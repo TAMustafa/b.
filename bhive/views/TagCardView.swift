@@ -16,17 +16,17 @@ struct TagCardView: View {
         NavigationLink(destination: TagDetailView(tag: tag)) {
             VStack(alignment: .leading) {
                 Text(tag.title)
-                    .font(.system(size: 14, weight: .light))
-                    .foregroundColor(Color(#colorLiteral(red: 0.2549019754, green: 0.2745098174, blue: 0.3019607961, alpha: 1)))
+                    .font(.system(size: 14, weight: .bold))
+                    .foregroundColor(Color(#colorLiteral(red: 0.4756349325, green: 0.4756467342, blue: 0.4756404161, alpha: 1)))
                 Spacer()
                 HStack {
                     Text(tag.author)
-                        .font(.system(size: 12, weight: .bold))
-                        .foregroundColor(Color(#colorLiteral(red: 0.2549019754, green: 0.2745098174, blue: 0.3019607961, alpha: 1)))
+                        .font(.system(size: 12, weight: .medium))
+                        .foregroundColor(Color(#colorLiteral(red: 1, green: 0.3415772839, blue: 0.4060478497, alpha: 1)))
                     Spacer()
                     Text(tag.created)
                         .font(.system(size: 9, weight: .light))
-                        .foregroundColor(Color(#colorLiteral(red: 0.2549019754, green: 0.2745098174, blue: 0.3019607961, alpha: 1)))
+                        .foregroundColor(Color(#colorLiteral(red: 0.4756349325, green: 0.4756467342, blue: 0.4756404161, alpha: 1)))
                 }
             }
         }
