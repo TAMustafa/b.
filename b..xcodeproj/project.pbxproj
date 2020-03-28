@@ -25,7 +25,7 @@
 		F57F0F03242946BD003EDB4F /* TagDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagDetailView.swift; sourceTree = "<group>"; };
 		F57F0F05242946F7003EDB4F /* TagCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagCardView.swift; sourceTree = "<group>"; };
 		F57F0F0724294D3A003EDB4F /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
-		F588CF3624269A5700DBB12B /* bhive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bhive.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F588CF3624269A5700DBB12B /* b..app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = b..app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F588CF3924269A5700DBB12B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F588CF3B24269A5700DBB12B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		F588CF3D24269A5700DBB12B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -78,7 +78,7 @@
 		F588CF3724269A5700DBB12B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F588CF3624269A5700DBB12B /* bhive.app */,
+				F588CF3624269A5700DBB12B /* b..app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -117,9 +117,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F588CF3524269A5700DBB12B /* bhive */ = {
+		F588CF3524269A5700DBB12B /* b. */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F588CF4A24269A5700DBB12B /* Build configuration list for PBXNativeTarget "bhive" */;
+			buildConfigurationList = F588CF4A24269A5700DBB12B /* Build configuration list for PBXNativeTarget "b." */;
 			buildPhases = (
 				F588CF3224269A5700DBB12B /* Sources */,
 				F588CF3324269A5700DBB12B /* Frameworks */,
@@ -129,11 +129,11 @@
 			);
 			dependencies = (
 			);
-			name = bhive;
+			name = b.;
 			packageProductDependencies = (
 			);
 			productName = bhive;
-			productReference = F588CF3624269A5700DBB12B /* bhive.app */;
+			productReference = F588CF3624269A5700DBB12B /* b..app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -151,7 +151,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F588CF3124269A5700DBB12B /* Build configuration list for PBXProject "bhive" */;
+			buildConfigurationList = F588CF3124269A5700DBB12B /* Build configuration list for PBXProject "b." */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -166,7 +166,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F588CF3524269A5700DBB12B /* bhive */,
+				F588CF3524269A5700DBB12B /* b. */,
 			);
 		};
 /* End PBXProject section */
@@ -373,7 +373,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F588CF3124269A5700DBB12B /* Build configuration list for PBXProject "bhive" */ = {
+		F588CF3124269A5700DBB12B /* Build configuration list for PBXProject "b." */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F588CF4824269A5700DBB12B /* Debug */,
@@ -382,7 +382,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F588CF4A24269A5700DBB12B /* Build configuration list for PBXNativeTarget "bhive" */ = {
+		F588CF4A24269A5700DBB12B /* Build configuration list for PBXNativeTarget "b." */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F588CF4B24269A5700DBB12B /* Debug */,

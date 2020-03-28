@@ -11,6 +11,7 @@ import Foundation
 class NetworkManager: ObservableObject {
 
     @Published var result = [Tag]()
+    @Published var showAlert = false
 
     func fetchTag(selectedURL: String) {
 
@@ -30,6 +31,10 @@ class NetworkManager: ObservableObject {
 
                         DispatchQueue.main.async {
                             self.result = decodedData
+                            
+                            if self.result.isEmpty {
+                                self.showAlert.toggle()
+                            }
                         }
                         return
 
