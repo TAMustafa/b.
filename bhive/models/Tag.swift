@@ -17,5 +17,5 @@ struct Tag: Decodable, Identifiable {
     let author: String
     let title: String
     let created: String
-    let body: String
+    let url: String
 }

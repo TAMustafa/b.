@@ -11,9 +11,10 @@ import SwiftUI
 struct TagCardView: View {
     
     var tag: Tag
+    var testBool = true
     
     var body: some View {
-        NavigationLink(destination: TagDetailView(tag: tag)) {
+        NavigationLink(destination: TagWebView(tag: tag)) {
             VStack(alignment: .leading) {
                 Text(tag.title)
                     .font(.system(size: 14, weight: .bold))

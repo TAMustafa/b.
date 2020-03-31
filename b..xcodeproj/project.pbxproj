@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F5089B6B243233D00099B2F9 /* TagWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5089B6A243233D00099B2F9 /* TagWebView.swift */; };
 		F57F0F012429344E003EDB4F /* Tag.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57F0F002429344E003EDB4F /* Tag.swift */; };
-		F57F0F04242946BD003EDB4F /* TagDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57F0F03242946BD003EDB4F /* TagDetailView.swift */; };
 		F57F0F06242946F7003EDB4F /* TagCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57F0F05242946F7003EDB4F /* TagCardView.swift */; };
 		F57F0F0824294D3A003EDB4F /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57F0F0724294D3A003EDB4F /* NetworkManager.swift */; };
 		F588CF3A24269A5700DBB12B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F588CF3924269A5700DBB12B /* AppDelegate.swift */; };
@@ -21,8 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F5089B6A243233D00099B2F9 /* TagWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagWebView.swift; sourceTree = "<group>"; };
 		F57F0F002429344E003EDB4F /* Tag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tag.swift; sourceTree = "<group>"; };
-		F57F0F03242946BD003EDB4F /* TagDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagDetailView.swift; sourceTree = "<group>"; };
 		F57F0F05242946F7003EDB4F /* TagCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagCardView.swift; sourceTree = "<group>"; };
 		F57F0F0724294D3A003EDB4F /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		F588CF3624269A5700DBB12B /* b..app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = b..app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -60,7 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				F57F0F05242946F7003EDB4F /* TagCardView.swift */,
-				F57F0F03242946BD003EDB4F /* TagDetailView.swift */,
+				F5089B6A243233D00099B2F9 /* TagWebView.swift */,
 				F5D7A9DC242CFD2100ED5879 /* AboutView.swift */,
 			);
 			path = views;
@@ -190,11 +190,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				F5D7A9DD242CFD2100ED5879 /* AboutView.swift in Sources */,
+				F5089B6B243233D00099B2F9 /* TagWebView.swift in Sources */,
 				F57F0F012429344E003EDB4F /* Tag.swift in Sources */,
 				F588CF3A24269A5700DBB12B /* AppDelegate.swift in Sources */,
 				F588CF3C24269A5700DBB12B /* SceneDelegate.swift in Sources */,
 				F57F0F0824294D3A003EDB4F /* NetworkManager.swift in Sources */,
-				F57F0F04242946BD003EDB4F /* TagDetailView.swift in Sources */,
 				F57F0F06242946F7003EDB4F /* TagCardView.swift in Sources */,
 				F588CF3E24269A5700DBB12B /* ContentView.swift in Sources */,
 			);
